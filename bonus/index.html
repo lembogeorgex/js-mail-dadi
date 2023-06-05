@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mail</title>
+    <!-- link al file .css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body class="bg-info">
+    <!-- EMSIL -->
+    <div class="container">
+        <!-- EMAIL -->
+        <div class="container w-sm-75 bg-success mt-4 rounded">
+            <div class="row flex-column flex-sm-row text-center align-items-center justify-content-center p-3">
+                <div class="mb-3 mb-lg-1 col-12 col-lg-6 col-xl-6">
+                    <input class="rounded" type="email" name="email" id="email-input" placeholder="Inserisci la tua email">
+                </div>
+                <div class="mb-2 mb-lg-1 col col-sm-6 col-xl-6">
+                    <button class="btn rounded-pill" id="submit-mail">Controlla la tua email</button>
+                </div>
+                <div class="mb-2 mb-lg-0 col  col-sm-6 col-xl-6 d-none" id="add-new-mail">  
+                    <button class="btn rounded-pill" id="add-mail-btn">Aggiungi email alla lista</button>
+                </div>
+                <div class="col-12 col-lg-6 col-xl-6 mb-0 text-center" id="print-email-find">
+                    <!-- contenuto tramite js -->
+                </div>
+            </div>  
+        </div>
+        <hr class="hr">
+        <!-- DADI -->
+        <div class="container w-sm-50 bg-success text-center mt-3">
+            <div class="row flex-column p-3">
+                <div class="col">
+                    <button class="btn rounded-pill" id="number-gen">Genera i tuoi numeri</button>
+                </div>
+                <div class="col">
+                    <div class= 'my-3' id="number-print"></div>
+                </div>
+                <div class="col">
+                    <div id="print-result"></div>
+                </div>
+            </div>
+            <!-- aggiunto tramite js -->
+        </div>
+    </div>
+    <!-- link al file .js -->
+    <script src="js/common.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+* {
+    margin: auto auto;
+}
+html {
+    font-size: 1.25rem;
+}
+
+button:hover {
+    border: 3px solid white!important;
+    color: whitesmoke!important;
+}
+button {
+    background-color: goldenrod!important;
+    border: 3px solid black!important;
+    color: black;
+    font-weight: bold!important;
+}
+.container {
+    min-width: 338px;
+}
